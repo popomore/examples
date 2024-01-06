@@ -22,3 +22,6 @@ ffmpeg -i ${input} -y -c:a libopus -b:a 64k output/example_opus_64k.opus
 ffmpeg -i ${input} -y -c:a libopus -b:a 128k output/example_opus_128k.opus
 ffmpeg -i ${input} -y -c:a libopus -b:a 192k output/example_opus_192k.opus
 ffmpeg -i ${input} -y -c:a libopus -b:a 320k output/example_opus_320k.opus
+
+# webm with opus
+ffmpeg -i ${input} -y -c:a libopus -b:a 128k output/example_webm_opus_128k.webm
